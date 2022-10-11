@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pacifico&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pacifico&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+
+        /* Tamanhos de FONTES
+        Medidas Absolutas (cm, mm, in-polegadas, px-pixel, pt-ponto, pc-paica) 
+        Obs: PT e PC, não são recomendadas para trabalhos cuja exibição será em tela, já que as mesmas são medidas reativas às impressão em papel.
+        Medidas Relativas (  em-Relativo ao tamanho do M m maiúsculo de uma fonte, ex-Referente à altura x da fonte, rem-Altura M porém relativa ao root ou seha: configurada no body ou no '*' no arquivo de estilo, vw-Relativa à largura da viewport -  tela onde esta sendo exibido o site (pc, celular, tablet, etc), vw-Relativa à largura da viewport -  tela onde esta sendo exibido o site (pc, celular, tablet, etc), vh-Relativo à altura do viewport, % )
+        */
+        background-image:linear-gradient(to top, #13678A, #45C4B0, #9AEBA3);
+        background-attachment: fixed
+        } 
+        h1{
+            /*
+            font-family:work sans-serif;
+            font-weight: bolder;
+            font: size 3em;
+            font-style: italic;
+            ------------------------
+            shorted font
+                - font-style -> font-weight -> font-size -> 
+            font-family
+            */
+            font: italic bolder 3em 'Kaushan Script', sans-serif;
+            color:#D6D58E;
+            border-radius: 10px;
+            background-color:#9AEBA3 ;
+            box-shadow: 3px 3px 10px #6abb73;
+            text-shadow: 2px 3px 4px #307a39;
+            width: 600px;
+            padding: 10px 5px;
+            text-align: center;
+        } 
+        h2{
+            font: bold 2em 'work sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint explicabo, nostrum earum dolore deleniti repellendus tempora ipsam dolor autem, nihil facere delectus esse ullam a placeat odio dignissimos numquam! Sapiente?</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus deserunt nostrum eaque, ratione totam dolor repudiandae possimus beatae non repellat sequi facere? Assumenda adipisci voluptatum officia doloribus suscipit inventore quas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolores labore reiciendis, voluptas praesentium modi hic amet rerum impedit est blanditiis eos. Placeat facere magnam ullam? Aspernatur cumque maiores corporis.
+    </p>
+
+    <h2>Subtítulo do item 01</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dicta facere tempora officia modi iure accusamus pariatur quisquam reiciendis veniam, ullam dolores libero excepturi perferendis blanditiis suscipit provident quod nostrum!</p>
+</body>
+</html>
