@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:PassionOne;
+    src: url(../fontes/PassionOne-Regular.ttf);
+    /*font-weight:400;*/
+}
+
+@font-face {
+    font-family:PassionOne;
+    src: url(../fontes/PassionOne-Bold.ttf);
+    font-weight:700;
+}
+
+@font-face {
+    font-family:PassionOne;
+    src: url(../fontes/PassionOne-Black.ttf);
+    font-weight:900;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    font-family: PassionOne;
+    font-weight:700;
+    font-size: 113px;
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p{
+    padding-bottom: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+header a, footer a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgb(51, 51, 51);
+    color: white;
+
+}
+
+section.imagem > p{
+    width: 400px;
+    background-color: rgba(0,0, 0, 0.253);
+}
+
+
+footer{
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/*
+@font-face {
+    font-family:PassionOne;
+    src: url(../fontes/PassionOne-Regular.ttf);
+    /*font-weight:400;
+}
+
+@font-face {
+    font-family:PassionOne;
+    src: url(../fontes/PassionOne-Bold.ttf);
+    font-weight:700;
+}
+
+@font-face {
+    font-family:PassionOne;
+    src: url(../fontes/PassionOne-Black.ttf);
+    font-weight:900;
+}
+
+header{
+    background-color: black;
+    height: 270px;
+}
+
+header > h1{
+    font-family: PassionOne;
+    font-weight:700;
+    font-size: 113px;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+
+header > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+header a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+body{
+
+    font-family: 'Sriracha', cursive;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+body>article{
+    width: 471px;
+}
+
+body>article>p{
+    padding-left: 25px;
+}
+
+
+
+footer p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px; 
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+*/
