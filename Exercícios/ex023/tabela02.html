@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABELAS - 02</title>
+    <style>
+        body{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 1em;
+            font-weight: bold;
+            text-decoration: underline;
+            padding: 10px;
+            background-color: lightgray;
+            color: red;
+        }
+        thead{
+            background-color: black;
+            font-size: 1em;
+            color: white;
+        }
+        /*efeito zebrado na tabela*/
+        tbody >tr:nth-child(2n){
+            background-color: lightgreen;
+        }
+        /*fim zebrado*/
+        td,th{
+            border: 1px solid black;
+            padding: 3px;
+        }
+        .num{
+            font-weight: bolder;
+            text-align: right;
+            color: rgb(47, 0, 255);
+        }
+        tfoot{
+            font-weight: bolder;
+            font-size: 1em;
+            color: green;
+            background-color: black;
+            text-align: right;
+        }
+        tfoot th{
+            font-size: 1em;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <!--Anatomia para tabelas grandes -> (TAG´s SEMANTICAS)
+        TABLE
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+    <table>
+        <caption>
+            População estimada dos estados.
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col" style="width:250px;">Estado</th>
+                <th scope="col" style="width:150px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">41.255.500</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">15.125.320</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">8.150.025</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">41.255.500</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">15.125.320</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">8.150.025</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">41.255.500</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">15.125.320</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">8.150.025</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">41.255.500</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">15.125.320</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">8.150.025</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">41.255.500</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">15.125.320</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">8.150.025</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">41.255.500</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">15.125.320</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">8.150.025</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td>57.725.150</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
