@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+    <style>
+        /*para a centralização vertical
+            1- O objeto container tem que ter position relative.
+            2- o objeto conteudo deve ter position absolute.
+            3- No objeto conteúdo fazer um mix entre os paramentro Left / Top / Transform: translate().
+        */
+        #container{
+            position: relative; 
+            height: 500px;
+            padding: 10px;
+            background-color: darkgoldenrod;
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+        }
+
+        #conteudo{
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: green;
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+    
+</body>
+</html>
