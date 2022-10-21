@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 1.2em;
+            font-weight: bolder;
+            padding: 20px;
+        }
+
+        th, td{
+            border: 1px solid black;            
+            padding: 10px;
+        }
+
+        tr:nth-child(even){
+            background-color: gray;
+        }
+        /* pulo do gato para deixar uma tabela responsiva*/
+        div#container{ 
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas em Telas Pequenas</h1>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet voluptatum sit assumenda sequi laudantium repudiandae accusantium aperiam ipsam. Eos maiores qui nostrum id quam quidem, quae et aperiam incidunt perspiciatis?
+    </p>
+
+    <div id="container">
+        <table>
+            <caption>Tabela Responsiva</caption>
+            <thed>
+                <tr>
+                    <th>Produtos</th>
+                    <th>Jan</th>
+                    <th>Fev</th>
+                    <th>Mar</th>
+                    <th>Abr</th>
+                    <th>Mai</th>
+                    <th>Jun</th>
+                    <th>Jul</th>
+                    <th>Ago</th>
+                    <th>Set</th>
+                    <th>Out</th>
+                    <th>Nov</th>
+                    <th>Dez</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monitor 14"</td>
+                    <td>01</td>
+                    <td>23</td>
+                    <td>15</td>
+                    <td>05</td>
+                    <td>25</td>
+                    <td>55</td>
+                    <td>45</td>
+                    <td>87</td>
+                    <td>01</td>
+                    <td>02</td>
+                    <td>48</td>
+                    <td>05</td>
+                </tr>
+                <tr>
+                    <td>Fogão 5b</td>
+                    <td>68</td>
+                    <td>29</td>
+                    <td>16</td>
+                    <td>65</td>
+                    <td>25</td>
+                    <td>51</td>
+                    <td>45</td>
+                    <td>18</td>
+                    <td>01</td>
+                    <td>07</td>
+                    <td>45</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>Pen Drive 32Gb</td>
+                    <td>60</td>
+                    <td>200</td>
+                    <td>65</td>
+                    <td>05</td>
+                    <td>29</td>
+                    <td>68</td>
+                    <td>41</td>
+                    <td>86</td>
+                    <td>05</td>
+                    <td>100</td>
+                    <td>46</td>
+                    <td>68</td>
+                </tr>
+                <tr>
+                    <td>Mouse Optico</td>
+                    <td>68</td>
+                    <td>20</td>
+                    <td>69</td>
+                    <td>32</td>
+                    <td>20</td>
+                    <td>02</td>
+                    <td>65</td>
+                    <td>89</td>
+                    <td>63</td>
+                    <td>03</td>
+                    <td>96</td>
+                    <td>69</td>
+                </tr>
+                <tr>
+                    <td>Teclado Gamer</td>
+                    <td>56</td>
+                    <td>02</td>
+                    <td>66</td>
+                    <td>02</td>
+                    <td>42</td>
+                    <td>98</td>
+                    <td>56</td>
+                    <td>86</td>
+                    <td>93</td>
+                    <td>82</td>
+                    <td>54</td>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <td>Notewbook Aces</td>
+                    <td>56</td>
+                    <td>53</td>
+                    <td>86</td>
+                    <td>50</td>
+                    <td>02</td>
+                    <td>57</td>
+                    <td>86</td>
+                    <td>87</td>
+                    <td>95</td>
+                    <td>87</td>
+                    <td>54</td>
+                    <td>98</td>
+                </tr>
+                <tr>
+                    <td>Celular Samsung</td>
+                    <td>40</td>
+                    <td>05</td>
+                    <td>60</td>
+                    <td>86</td>
+                    <td>23</td>
+                    <td>86</td>
+                    <td>23</td>
+                    <td>89</td>
+                    <td>69</td>
+                    <td>09</td>
+                    <td>69</td>
+                    <td>89</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
