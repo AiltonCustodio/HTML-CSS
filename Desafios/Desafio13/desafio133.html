@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESAFIO 03-> TABELAS</title>
+    <style>
+        body{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        table{
+            border-collapse: collapse;
+            width: 600px;
+        }
+
+        .TOPO{
+            text-align: center;
+            font-weight: bolder;
+            font-size: 1em;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Mesclagem de Células</h1>
+    <table>
+        <tr class="TOPO">
+            <td>GRUPO</td>
+            <td>NOME</td>
+            <td colspan="3">FILMES</td>
+        </tr>
+        <tr>
+            <td rowspan="3" class="TOPO">MULHERES</td>
+            <td>Ana Maria</td>
+            <td>Alien</td>
+            <td>Rembo</td>
+            <td>Vingadores</td>
+        </tr>
+        <tr>
+            <td>Beatriz Souza</td>
+            <td>Hulk</td>
+            <td>Inception</td>
+            <td>Batman</td>
+        </tr>
+        <tr>
+            <td>Claudia Mello</td>
+            <td>Oblivion</td>
+            <td>Matrix</td>
+            <td>Big Hero</td>
+        </tr>
+        <tr>
+            <td rowspan="3" class="TOPO">HOMENS</td>
+            <td>Bruno Mendonça</td>
+            <td>Intocáveis</td>
+            <td>Amnésia</td>
+            <td>Gladiador</td>
+        </tr>
+        <tr>
+            <td>Daniel Lourenço</td>
+            <td>Wall-e</td>
+            <td>Oldboy</td>
+            <td>Dangal</td>
+        </tr>
+        <tr>
+            <td>Fabiano Mota</td>
+            <td>Star Wars</td>
+            <td>Taxi Driver</td>
+            <td>Big Toy Story</td>
+        </tr>
+    </table>
+</body>
+</html>
