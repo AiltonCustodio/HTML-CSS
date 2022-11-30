@@ -23,7 +23,7 @@ span#burger{
     background-color: rgb(48, 48, 48);
     color: white;
     display: block;
-    text-align: center;
+    /*text-align: center;*/
     padding: 10px;
     cursor: pointer;
 }
@@ -34,7 +34,7 @@ span#burger:hover{
 }
 
 menu{
-    display: block;
+    display: none;
 }
 
 menu > ul{
@@ -42,9 +42,9 @@ menu > ul{
 }
 menu > ul > li > a{
     display: block;
-    padding: 10px;
+    padding: 10px 30px;
     text-decoration: none;
-    text-align: center;
+    /*text-align: center;*/
     background-color: rgb(87, 87, 87);
     color: white;
     border-top: 2px solid gray;
