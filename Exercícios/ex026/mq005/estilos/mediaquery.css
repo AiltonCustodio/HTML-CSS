@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+/*Typical Device Breakpoints
+    *Pequenas Telas ->  até 600px
+    *Celulares -> de 600px até 768px
+    *Tablet -> de 768px até 992px
+    *Desktops -> de 992px até 1200px
+    *TVs -> acima de 1200px
+*/
+@media screen and (min-width:768px)_{
+    span#burger{
+        display: none;
+    }
+}
