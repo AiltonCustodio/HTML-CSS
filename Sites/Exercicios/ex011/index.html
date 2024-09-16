@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML 5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML 5.</p>
+    <audio src="media/SÓ VAI MELHORAR AO VIVO! - Eliezer Rodrigues.mp3" controls autoplay></audio>
+    <p>Vamos aprender outra forma de reproduzir áudio em HTML 5.</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="media/Gabriel Guedes - A Benção (Infantil).mp3" type="audio/mpeg">
+        <source src="media/Gabriel Guedes - A Benção (Infantil).ogg" type="audio/ogg">
+        <source src="media/Gabriel Guedes - A Benção (Infantil).wav" type="audio/wav">
+      </audio>
+      <p>Infelizmente eu navegador não reproduz áudio. Baixe seu arquivo qui <a href="media/Gabriel Guedes - A Benção (Infantil).mp3" download="Gabriel Guedes - A Benção (Infantil).mp3.">aquí.</a></p>
+
+    
+</body>
+</html>
